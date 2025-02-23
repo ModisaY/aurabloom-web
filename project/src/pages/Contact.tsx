@@ -9,9 +9,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-16">
+    <div>
       {/* Hero Section */}
-      <section className="bg-gradient-brand py-20">
+      <section className="bg-gradient-brand min-h-[50vh] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
