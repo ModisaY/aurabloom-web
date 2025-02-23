@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Tagline */}
           <div className="col-span-1 flex flex-col items-center text-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="src/img/logo.png" alt="AuraBloom Logo" className="h-8 w-8" />
+              <img src="/img/logo.png" alt="AuraBloom Logo" className="h-8 w-8" />
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 AuraBloom
               </span>
