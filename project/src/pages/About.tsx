@@ -200,9 +200,9 @@ const team = [
     position: "Head of Product & Cloud Engineer",
     description: "A full-stack developer passionate about building scalable and efficient solutions, exploring the latest technologies in web development and DevOps as an undergraduate at IIT",
     image: "/img/risinu.jpg",
-    linkedin: "https://linkedin.com/in/michaelchang",
-    github: "https://github.com/mchang_product",
-    email: "michael.chang@aurabloom.com"
+    linkedin: "https://www.linkedin.com/in/risinu-kudagama-3457b3296/",
+    github: "https://github.com/RisinuKudagama",
+    email: "rizinu7@gmail.com"
   },
   {
     name: "Kulani Geethma",

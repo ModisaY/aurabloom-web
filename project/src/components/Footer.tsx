@@ -53,7 +53,7 @@ const Footer = () => {
                 <Facebook className="h-6 w-6" />
               </a>
               <a 
-                href="https://www.youtube.com/@aurabloom" 
+                href="https://www.youtube.com/@AuraBloom28" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-[#FF0000]"
