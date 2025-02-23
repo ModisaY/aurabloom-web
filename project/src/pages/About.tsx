@@ -172,7 +172,7 @@ const team = [
     name: "Praveen Sandanayaka",
     position: "Founder & Backend Developer",
     description: "Dedicated software engineering student at IIT focused on Python and AI development. I'm passionate about building user-friendly software solutions and love exploring new technologies to grow my skills.",
-    image: "src/img/praveen.jpg",
+    image: "/img/praveen.jpg",
     linkedin: "https://www.linkedin.com/in/praveen-yasas-943b6026a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvdVtUUavR3aNt0IrIfoYXQ%3D%3D",
     github: "https://github.com/PraveenYasas",
     email: "praveenyasas2001@gmail.com"
