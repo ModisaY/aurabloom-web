@@ -1,33 +1,47 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navigation';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+
+// Page imports
 import Home from './pages/Home';
 import Features from './pages/Features';
 import About from './pages/About';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 
-function App() {
+// Define routes configuration for easier management
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: '/features', element: <Features /> },
+  { path: '/about', element: <About /> },
+  { path: '/faq', element: <FAQ /> },
+  { path: '/contact', element: <Contact /> }
+];
+
+const App = () => {
   return (
     <Router>
-      <ScrollToTop /> {/* Ensures page scrolls to the top on route change */}
-      <div className="min-h-screen flex flex-col">
+      <ScrollToTop />
+      <div className="min-h-screen flex flex-col bg-gray-50">
         <Navbar />
-        <main className="flex-grow">
+        <main className="flex-grow pt-16">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/features" element={<Features />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/contact" element={<Contact />} />
+            {routes.map((route) => (
+              <Route 
+                key={route.path}
+                path={route.path}
+                element={route.element}
+              />
+            ))}
+            {/* Add a catch-all route for 404 if needed */}
+            {/* <Route path="*" element={<NotFound />} /> */}
           </Routes>
         </main>
         <Footer />
       </div>
     </Router>
   );
-}
+};
 
 export default App;
