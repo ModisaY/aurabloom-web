@@ -181,7 +181,7 @@ const team = [
     name: "Sakith Umagiliya",
     position: "Project Manager & Mobile Developer",
     description: "A driven undergraduate at IIT, passionate about software development, exploring full-stack technologies, and honing web and mobile development skills.",
-    image: "src/img/kulani (part-time).jpg",
+    image: "/img/kulani (part-time).jpg",
     linkedin: "https://www.linkedin.com/in/sakith-umagiliya-8b927a2bb/",
     github: "https://github.com/sakith71",
     email: "sakiththewmika71@gmail.com"
@@ -190,7 +190,7 @@ const team = [
     name: "Modisa Nallaperuma",
     position: "Chief Technology Officer & Backend Developer",
     description: "An enthusiastic IIT undergraduate passionate about backend development and exploring machine learning to build intelligent and efficient systems.",
-    image: "src/img/modisa.jpg",
+    image: "/img/modisa.jpg",
     linkedin: "www.linkedin.com/in/modisa-nallaperuma-681435291",
     github: "https://github.com/ModisaY",
     email: "modisa.nallaperuma@gmail.com"
@@ -199,7 +199,7 @@ const team = [
     name: "Risinu Kudagama",
     position: "Head of Product & Cloud Engineer",
     description: "A full-stack developer passionate about building scalable and efficient solutions, exploring the latest technologies in web development and DevOps as an undergraduate at IIT",
-    image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&w=256&h=256&q=80",
+    image: "/img/risinu.jpg",
     linkedin: "https://linkedin.com/in/michaelchang",
     github: "https://github.com/mchang_product",
     email: "michael.chang@aurabloom.com"
@@ -208,7 +208,7 @@ const team = [
     name: "Kulani Geethma",
     position: "UI/UX Designer & Full-stack Developer",
     description: "A full-stack developer at Informatic Institute of Technology, passionate about creating seamless and user-friendly digital experiences.",
-    image: "src/img/kulani.jpg",
+    image: "/img/kulani.jpg",
     linkedin: "http://www.linkedin.com/in/kulani-pathirana-878868295",
     github: "https://github.com/mchang_product",
     email: "lisa.patel@aurabloom.com"
@@ -217,7 +217,7 @@ const team = [
     name: "Shani Imasha",
     position: "UI/UX Designer & Mobile Developer",
     description: "An enthusiastic undergraduate at the Informatics Institute of Technology, driven by a curiosity for software development and a deep interest in full-stack technologies.",
-    image: "src/img/shani.jpg",
+    image: "/img/shani.jpg",
     linkedin: "http://www.linkedin.com/in/shani-imasha-833141281",
     github: "https://github.com/Shanuu112",
     email: "d.imashashani2002@gmail.com"
