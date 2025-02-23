@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import { Heart, Brain, Sparkles, Bell, Users, Shield } from 'lucide-react';
 
@@ -11,9 +10,9 @@ const Home = () => {
   }));
 
   return (
-    <div className="pt-16">
+    <div>
       {/* Hero Section */}
-      <section className="bg-gradient-brand min-h-[90vh] flex items-center relative overflow-hidden">
+      <section className="bg-gradient-brand min-h-screen flex items-center relative overflow-hidden">
         {/* Animated Background Elements */}
         {floatingBubbles.map((bubble) => (
           <motion.div
